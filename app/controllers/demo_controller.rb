@@ -6,6 +6,6 @@ class DemoController < ApplicationController
     @page=params[:page]
     @id=params[:id]
     render 'hello'
-    puts "git test staging"
+    puts "git test revised"
   end
 end

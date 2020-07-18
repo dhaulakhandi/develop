@@ -1,0 +1,8 @@
+<h1>Hello From Hello Page </h1>
+
+<%= link_to('Hello Page',:action => 'index') %></br>
+<h1> Values from Index page with Paramters</h1>
+ID: <%= @id %> </br>
+ID: <%= params[:id] %> </br>
+Page: <%= @page %> </br>
+Next Page: <%= @page.to_i + 1 %>
